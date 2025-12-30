@@ -1,17 +1,29 @@
 $dokka.format:html-v1
 $dokka.linkExtension:html
 $dokka.location:com.napcosecurity.napcoilocksdk////PointingToDeclaration/-napco-i-lock-s-d-k/com.napcosecurity.napcoilocksdk/index.html
+$dokka.location:com.napcosecurity.napcoilocksdk/Credential.Companion///PointingToDeclaration/-napco-i-lock-s-d-k/com.napcosecurity.napcoilocksdk/-credential/-companion/index.html
+$dokka.location:com.napcosecurity.napcoilocksdk/Credential.Companion/fromBadge/#kotlin.String/PointingToDeclaration/-napco-i-lock-s-d-k/com.napcosecurity.napcoilocksdk/-credential/-companion/from-badge.html
+$dokka.location:com.napcosecurity.napcoilocksdk/Credential.Companion/fromBase64password/#kotlin.String/PointingToDeclaration/-napco-i-lock-s-d-k/com.napcosecurity.napcoilocksdk/-credential/-companion/from-base64password.html
 $dokka.location:com.napcosecurity.napcoilocksdk/Credential///PointingToDeclaration/-napco-i-lock-s-d-k/com.napcosecurity.napcoilocksdk/-credential/index.html
-$dokka.location:com.napcosecurity.napcoilocksdk/Credential/Credential/#kotlin.String/PointingToDeclaration/-napco-i-lock-s-d-k/com.napcosecurity.napcoilocksdk/-credential/-credential.html
-$dokka.location:com.napcosecurity.napcoilocksdk/Credential/equals/#kotlin.Any?/PointingToDeclaration/-napco-i-lock-s-d-k/com.napcosecurity.napcoilocksdk/-credential/equals.html
-$dokka.location:com.napcosecurity.napcoilocksdk/Credential/hashCode/#/PointingToDeclaration/-napco-i-lock-s-d-k/com.napcosecurity.napcoilocksdk/-credential/hash-code.html
+$dokka.location:com.napcosecurity.napcoilocksdk/Credential/Credential/#/PointingToDeclaration/-napco-i-lock-s-d-k/com.napcosecurity.napcoilocksdk/-credential/-credential.html
+$dokka.location:com.napcosecurity.napcoilocksdk/CredentialType.CA4K///PointingToDeclaration/{"org.jetbrains.dokka.links.EnumEntryDRIExtra":{"key":"org.jetbrains.dokka.links.EnumEntryDRIExtra"}}-napco-i-lock-s-d-k/com.napcosecurity.napcoilocksdk/-credential-type/-c-a4-k/index.html
+$dokka.location:com.napcosecurity.napcoilocksdk/CredentialType.MVP_ACCESS///PointingToDeclaration/{"org.jetbrains.dokka.links.EnumEntryDRIExtra":{"key":"org.jetbrains.dokka.links.EnumEntryDRIExtra"}}-napco-i-lock-s-d-k/com.napcosecurity.napcoilocksdk/-credential-type/-m-v-p_-a-c-c-e-s-s/index.html
+$dokka.location:com.napcosecurity.napcoilocksdk/CredentialType///PointingToDeclaration/-napco-i-lock-s-d-k/com.napcosecurity.napcoilocksdk/-credential-type/index.html
+$dokka.location:com.napcosecurity.napcoilocksdk/CredentialType/entries/#/PointingToDeclaration/-napco-i-lock-s-d-k/com.napcosecurity.napcoilocksdk/-credential-type/entries.html
+$dokka.location:com.napcosecurity.napcoilocksdk/CredentialType/valueOf/#kotlin.String/PointingToDeclaration/-napco-i-lock-s-d-k/com.napcosecurity.napcoilocksdk/-credential-type/value-of.html
+$dokka.location:com.napcosecurity.napcoilocksdk/CredentialType/values/#/PointingToDeclaration/-napco-i-lock-s-d-k/com.napcosecurity.napcoilocksdk/-credential-type/values.html
 $dokka.location:com.napcosecurity.napcoilocksdk/ILock///PointingToDeclaration/-napco-i-lock-s-d-k/com.napcosecurity.napcoilocksdk/-i-lock/index.html
 $dokka.location:com.napcosecurity.napcoilocksdk/ILock/ILock/#kotlin.String#kotlin.Int/PointingToDeclaration/-napco-i-lock-s-d-k/com.napcosecurity.napcoilocksdk/-i-lock/-i-lock.html
 $dokka.location:com.napcosecurity.napcoilocksdk/ILock/broadcastId/#/PointingToDeclaration/-napco-i-lock-s-d-k/com.napcosecurity.napcoilocksdk/-i-lock/broadcast-id.html
-$dokka.location:com.napcosecurity.napcoilocksdk/ILock/connect/#com.napcosecurity.napcoilocksdk.LockStatusCallback/PointingToDeclaration/-napco-i-lock-s-d-k/com.napcosecurity.napcoilocksdk/-i-lock/connect.html
+$dokka.location:com.napcosecurity.napcoilocksdk/ILock/connect/#com.napcosecurity.napcoilocksdk.LockStatusCallback#kotlin.Long/PointingToDeclaration/-napco-i-lock-s-d-k/com.napcosecurity.napcoilocksdk/-i-lock/connect.html
+$dokka.location:com.napcosecurity.napcoilocksdk/ILock/onLockConnected/#kotlin.String/PointingToDeclaration/-napco-i-lock-s-d-k/com.napcosecurity.napcoilocksdk/-i-lock/on-lock-connected.html
+$dokka.location:com.napcosecurity.napcoilocksdk/ILock/onLockDisconnected/#kotlin.String/PointingToDeclaration/-napco-i-lock-s-d-k/com.napcosecurity.napcoilocksdk/-i-lock/on-lock-disconnected.html
+$dokka.location:com.napcosecurity.napcoilocksdk/ILock/onLockError/#kotlin.String#com.napcosecurity.napcoilocksdk.LockError/PointingToDeclaration/-napco-i-lock-s-d-k/com.napcosecurity.napcoilocksdk/-i-lock/on-lock-error.html
+$dokka.location:com.napcosecurity.napcoilocksdk/ILock/onLockOpModeMismatch/#kotlin.String/PointingToDeclaration/-napco-i-lock-s-d-k/com.napcosecurity.napcoilocksdk/-i-lock/on-lock-op-mode-mismatch.html
+$dokka.location:com.napcosecurity.napcoilocksdk/ILock/onLockRSSIReceived/#kotlin.Int/PointingToDeclaration/-napco-i-lock-s-d-k/com.napcosecurity.napcoilocksdk/-i-lock/on-lock-r-s-s-i-received.html
+$dokka.location:com.napcosecurity.napcoilocksdk/ILock/onLockStatusReceived/#com.napcosecurity.napcoilocksdk.LockStatus/PointingToDeclaration/-napco-i-lock-s-d-k/com.napcosecurity.napcoilocksdk/-i-lock/on-lock-status-received.html
 $dokka.location:com.napcosecurity.napcoilocksdk/ILock/threshold/#/PointingToDeclaration/-napco-i-lock-s-d-k/com.napcosecurity.napcoilocksdk/-i-lock/threshold.html
-$dokka.location:com.napcosecurity.napcoilocksdk/ILock/toggleLockUnlock/#com.napcosecurity.napcoilocksdk.Credential#com.napcosecurity.napcoilocksdk.ToggleType/PointingToDeclaration/-napco-i-lock-s-d-k/com.napcosecurity.napcoilocksdk/-i-lock/toggle-lock-unlock.html
-$dokka.location:com.napcosecurity.napcoilocksdk/ILock/unlock/#com.napcosecurity.napcoilocksdk.Credential/PointingToDeclaration/-napco-i-lock-s-d-k/com.napcosecurity.napcoilocksdk/-i-lock/unlock.html
+$dokka.location:com.napcosecurity.napcoilocksdk/ILock/unlock/#com.napcosecurity.napcoilocksdk.Credential#kotlin.Long/PointingToDeclaration/-napco-i-lock-s-d-k/com.napcosecurity.napcoilocksdk/-i-lock/unlock.html
 $dokka.location:com.napcosecurity.napcoilocksdk/ILockSDK///PointingToDeclaration/-napco-i-lock-s-d-k/com.napcosecurity.napcoilocksdk/-i-lock-s-d-k/index.html
 $dokka.location:com.napcosecurity.napcoilocksdk/ILockSDK/init/#android.content.Context#kotlin.String#com.napcosecurity.napcoilocksdk.SdkInitCallback/PointingToDeclaration/-napco-i-lock-s-d-k/com.napcosecurity.napcoilocksdk/-i-lock-s-d-k/init.html
 $dokka.location:com.napcosecurity.napcoilocksdk/ILockSDK/init/#android.content.Context#kotlin.String#kotlin.Function1[com.napcosecurity.napcoilocksdk.Result,kotlin.Unit]/PointingToDeclaration/-napco-i-lock-s-d-k/com.napcosecurity.napcoilocksdk/-i-lock-s-d-k/init.html
@@ -25,7 +37,7 @@ $dokka.location:com.napcosecurity.napcoilocksdk/ILockSdkError/entries/#/Pointing
 $dokka.location:com.napcosecurity.napcoilocksdk/ILockSdkError/valueOf/#kotlin.String/PointingToDeclaration/-napco-i-lock-s-d-k/com.napcosecurity.napcoilocksdk/-i-lock-sdk-error/value-of.html
 $dokka.location:com.napcosecurity.napcoilocksdk/ILockSdkError/values/#/PointingToDeclaration/-napco-i-lock-s-d-k/com.napcosecurity.napcoilocksdk/-i-lock-sdk-error/values.html
 $dokka.location:com.napcosecurity.napcoilocksdk/ImportUtility///PointingToDeclaration/-napco-i-lock-s-d-k/com.napcosecurity.napcoilocksdk/-import-utility/index.html
-$dokka.location:com.napcosecurity.napcoilocksdk/ImportUtility/decodeCredentials/#kotlin.String/PointingToDeclaration/-napco-i-lock-s-d-k/com.napcosecurity.napcoilocksdk/-import-utility/decode-credentials.html
+$dokka.location:com.napcosecurity.napcoilocksdk/ImportUtility/decodeCredentials/#kotlin.String#com.napcosecurity.napcoilocksdk.CredentialType/PointingToDeclaration/-napco-i-lock-s-d-k/com.napcosecurity.napcoilocksdk/-import-utility/decode-credentials.html
 $dokka.location:com.napcosecurity.napcoilocksdk/LockData///PointingToDeclaration/-napco-i-lock-s-d-k/com.napcosecurity.napcoilocksdk/-lock-data/index.html
 $dokka.location:com.napcosecurity.napcoilocksdk/LockData/LockData/#kotlin.String#kotlin.String#kotlin.String#kotlin.String/PointingToDeclaration/-napco-i-lock-s-d-k/com.napcosecurity.napcoilocksdk/-lock-data/-lock-data.html
 $dokka.location:com.napcosecurity.napcoilocksdk/LockData/broadcastId/#/PointingToDeclaration/-napco-i-lock-s-d-k/com.napcosecurity.napcoilocksdk/-lock-data/broadcast-id.html
@@ -33,6 +45,9 @@ $dokka.location:com.napcosecurity.napcoilocksdk/LockData/lockId/#/PointingToDecl
 $dokka.location:com.napcosecurity.napcoilocksdk/LockData/name/#/PointingToDeclaration/-napco-i-lock-s-d-k/com.napcosecurity.napcoilocksdk/-lock-data/name.html
 $dokka.location:com.napcosecurity.napcoilocksdk/LockData/password/#/PointingToDeclaration/-napco-i-lock-s-d-k/com.napcosecurity.napcoilocksdk/-lock-data/password.html
 $dokka.location:com.napcosecurity.napcoilocksdk/LockData/slot/#/PointingToDeclaration/-napco-i-lock-s-d-k/com.napcosecurity.napcoilocksdk/-lock-data/slot.html
+$dokka.location:com.napcosecurity.napcoilocksdk/LockError.ConnectionTimeout///PointingToDeclaration/-napco-i-lock-s-d-k/com.napcosecurity.napcoilocksdk/-lock-error/-connection-timeout/index.html
+$dokka.location:com.napcosecurity.napcoilocksdk/LockError.UnlockTimeout///PointingToDeclaration/-napco-i-lock-s-d-k/com.napcosecurity.napcoilocksdk/-lock-error/-unlock-timeout/index.html
+$dokka.location:com.napcosecurity.napcoilocksdk/LockError///PointingToDeclaration/-napco-i-lock-s-d-k/com.napcosecurity.napcoilocksdk/-lock-error/index.html
 $dokka.location:com.napcosecurity.napcoilocksdk/LockStatus.Locked///PointingToDeclaration/-napco-i-lock-s-d-k/com.napcosecurity.napcoilocksdk/-lock-status/-locked/index.html
 $dokka.location:com.napcosecurity.napcoilocksdk/LockStatus.Locked/Locked/#kotlin.String/PointingToDeclaration/-napco-i-lock-s-d-k/com.napcosecurity.napcoilocksdk/-lock-status/-locked/-locked.html
 $dokka.location:com.napcosecurity.napcoilocksdk/LockStatus.Locked/message/#/PointingToDeclaration/-napco-i-lock-s-d-k/com.napcosecurity.napcoilocksdk/-lock-status/-locked/message.html
@@ -43,6 +58,7 @@ $dokka.location:com.napcosecurity.napcoilocksdk/LockStatus///PointingToDeclarati
 $dokka.location:com.napcosecurity.napcoilocksdk/LockStatusCallback///PointingToDeclaration/-napco-i-lock-s-d-k/com.napcosecurity.napcoilocksdk/-lock-status-callback/index.html
 $dokka.location:com.napcosecurity.napcoilocksdk/LockStatusCallback/onLockConnected/#kotlin.String/PointingToDeclaration/-napco-i-lock-s-d-k/com.napcosecurity.napcoilocksdk/-lock-status-callback/on-lock-connected.html
 $dokka.location:com.napcosecurity.napcoilocksdk/LockStatusCallback/onLockDisconnected/#kotlin.String/PointingToDeclaration/-napco-i-lock-s-d-k/com.napcosecurity.napcoilocksdk/-lock-status-callback/on-lock-disconnected.html
+$dokka.location:com.napcosecurity.napcoilocksdk/LockStatusCallback/onLockError/#kotlin.String#com.napcosecurity.napcoilocksdk.LockError/PointingToDeclaration/-napco-i-lock-s-d-k/com.napcosecurity.napcoilocksdk/-lock-status-callback/on-lock-error.html
 $dokka.location:com.napcosecurity.napcoilocksdk/LockStatusCallback/onLockOpModeMismatch/#kotlin.String/PointingToDeclaration/-napco-i-lock-s-d-k/com.napcosecurity.napcoilocksdk/-lock-status-callback/on-lock-op-mode-mismatch.html
 $dokka.location:com.napcosecurity.napcoilocksdk/LockStatusCallback/onLockRSSIReceived/#kotlin.Int/PointingToDeclaration/-napco-i-lock-s-d-k/com.napcosecurity.napcoilocksdk/-lock-status-callback/on-lock-r-s-s-i-received.html
 $dokka.location:com.napcosecurity.napcoilocksdk/LockStatusCallback/onLockStatusReceived/#com.napcosecurity.napcoilocksdk.LockStatus/PointingToDeclaration/-napco-i-lock-s-d-k/com.napcosecurity.napcoilocksdk/-lock-status-callback/on-lock-status-received.html
@@ -54,10 +70,4 @@ $dokka.location:com.napcosecurity.napcoilocksdk/Result///PointingToDeclaration/
 $dokka.location:com.napcosecurity.napcoilocksdk/SdkInitCallback///PointingToDeclaration/-napco-i-lock-s-d-k/com.napcosecurity.napcoilocksdk/-sdk-init-callback/index.html
 $dokka.location:com.napcosecurity.napcoilocksdk/SdkInitCallback/onError/#com.napcosecurity.napcoilocksdk.ILockSdkError/PointingToDeclaration/-napco-i-lock-s-d-k/com.napcosecurity.napcoilocksdk/-sdk-init-callback/on-error.html
 $dokka.location:com.napcosecurity.napcoilocksdk/SdkInitCallback/onSuccess/#/PointingToDeclaration/-napco-i-lock-s-d-k/com.napcosecurity.napcoilocksdk/-sdk-init-callback/on-success.html
-$dokka.location:com.napcosecurity.napcoilocksdk/ToggleType.LOCK///PointingToDeclaration/{"org.jetbrains.dokka.links.EnumEntryDRIExtra":{"key":"org.jetbrains.dokka.links.EnumEntryDRIExtra"}}-napco-i-lock-s-d-k/com.napcosecurity.napcoilocksdk/-toggle-type/-l-o-c-k/index.html
-$dokka.location:com.napcosecurity.napcoilocksdk/ToggleType.UNLOCK///PointingToDeclaration/{"org.jetbrains.dokka.links.EnumEntryDRIExtra":{"key":"org.jetbrains.dokka.links.EnumEntryDRIExtra"}}-napco-i-lock-s-d-k/com.napcosecurity.napcoilocksdk/-toggle-type/-u-n-l-o-c-k/index.html
-$dokka.location:com.napcosecurity.napcoilocksdk/ToggleType///PointingToDeclaration/-napco-i-lock-s-d-k/com.napcosecurity.napcoilocksdk/-toggle-type/index.html
-$dokka.location:com.napcosecurity.napcoilocksdk/ToggleType/entries/#/PointingToDeclaration/-napco-i-lock-s-d-k/com.napcosecurity.napcoilocksdk/-toggle-type/entries.html
-$dokka.location:com.napcosecurity.napcoilocksdk/ToggleType/valueOf/#kotlin.String/PointingToDeclaration/-napco-i-lock-s-d-k/com.napcosecurity.napcoilocksdk/-toggle-type/value-of.html
-$dokka.location:com.napcosecurity.napcoilocksdk/ToggleType/values/#/PointingToDeclaration/-napco-i-lock-s-d-k/com.napcosecurity.napcoilocksdk/-toggle-type/values.html
 com.napcosecurity.napcoilocksdk

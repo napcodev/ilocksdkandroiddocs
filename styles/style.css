@@ -18,7 +18,7 @@
     --footer-height: 64px;
     --footer-padding-top: 48px;
     --footer-background: var(--default-gray);
-    --footer-font-color: var(--average-color);
+    --footer-font-color: #333333;
     --footer-go-to-top-color: white;
 
     --horizontal-spacing-for-content: 16px;
@@ -235,7 +235,7 @@ td:first-child {
 
     --navigation-highlight-color: rgba(255, 255, 255, 0.05);
     --footer-background: hsla(0, 0%, 100%, 0.05);
-    --footer-font-color: hsla(0, 0%, 100%, 0.6);
+    --footer-font-color: rgba(255, 255, 255, 0.9);
     --footer-go-to-top-color: var(--footer-font-color);
 
     --sidemenu-section-active-color: var(--color-dark);
@@ -933,5 +933,3 @@ div.runnablesample {
     background-repeat: no-repeat;
     background-position: 50% 50%;
 }
-
-/* /--- footer --- */

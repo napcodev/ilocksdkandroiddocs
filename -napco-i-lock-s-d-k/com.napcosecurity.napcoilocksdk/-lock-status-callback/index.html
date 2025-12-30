@@ -35,6 +35,7 @@
 <script type="text/javascript" src="../../../ui-kit/ui-kit.min.js" defer="defer"></script>
 <script type="text/javascript" src="../../../scripts/symbol-parameters-wrapper_deferred.js" defer="defer"></script>
 <link href="../../../images/logo-icon.svg">
+<script type="text/javascript" src="../../../images/navigation-loader.js" async="async"></script>
 <link href="../../../styles/style.css" rel="Stylesheet">
 </head>
 <body>
@@ -48,7 +49,7 @@
         </button>
         <div class="navigation-controls--break ui-kit_mobile-only"></div>
         <div class="library-version" id="library-version">
-        </div>
+1.0.2        </div>
         <div class="navigation-controls">
         <div class="filter-section filter-section_loading" id="filter-section">
                 <button class="platform-tag platform-selector jvm-like" data-active=""
@@ -110,7 +111,7 @@
   <div class="breadcrumbs"><a href="../../../index.html">NapcoILockSDK</a><span class="delimiter">/</span><a href="../index.html">com.napcosecurity.napcoilocksdk</a><span class="delimiter">/</span><span class="current">LockStatusCallback</span></div>
   <div class="cover ">
     <h1 class="cover"><span>Lock</span><wbr></wbr><span>Status</span><wbr></wbr><span><span>Callback</span></span></h1>
-    <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":NapcoILockSDK/release"><div class="symbol monospace"><span class="token keyword">interface </span><a href="index.html">LockStatusCallback</a></div><p class="paragraph">Listener interface for receiving lock status updates.</p></div></div>
+    <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":NapcoILockSDK/release"><div class="symbol monospace"><span class="token keyword">interface </span><a href="index.html">LockStatusCallback</a></div><p class="paragraph">Listener interface for receiving lock status updates.</p><h4 class="">Inheritors</h4><div class="table"><div class="table-row" data-filterable-current=":NapcoILockSDK/release" data-filterable-set=":NapcoILockSDK/release"><div class="main-subrow keyValue "><div class=""><span class="inline-flex"><div><a href="../-i-lock/index.html">ILock</a></div></span></div><div></div></div></div></div></div></div>
   </div>
   <div class="tabbedcontent">
     <div class="tabs-section" tabs-section="tabs-section"><button class="section-tab" data-active="" data-togglable="CONSTRUCTOR,TYPE,PROPERTY,FUNCTION">Members</button></div>
@@ -143,6 +144,21 @@
               <div>
                 <div class="title">
                   <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":NapcoILockSDK/release"><div class="symbol monospace"><span class="token keyword">abstract </span><span class="token keyword">fun </span><a href="on-lock-disconnected.html"><span class="token function">onLockDisconnected</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">broadcastId<span class="token operator">: </span><a href="https://kotlinlang.org/api/core/kotlin-stdlib/kotlin/-string/index.html">String</a></span></span><span class="token punctuation">)</span></div><div class="brief "><p class="paragraph">Called when the lock gets disconnected.</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-705916735%2FFunctions%2F1808200872" anchor-label="onLockError" id="-705916735%2FFunctions%2F1808200872" data-filterable-set=":NapcoILockSDK/release"></a>
+          <div class="table-row" data-filterable-current=":NapcoILockSDK/release" data-filterable-set=":NapcoILockSDK/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="on-lock-error.html"><span>on</span><wbr></wbr><span>Lock</span><wbr></wbr><span><span>Error</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-705916735%2FFunctions%2F1808200872"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":NapcoILockSDK/release"><div class="symbol monospace"><span class="token keyword">abstract </span><span class="token keyword">fun </span><a href="on-lock-error.html"><span class="token function">onLockError</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">broadcastId<span class="token operator">: </span><a href="https://kotlinlang.org/api/core/kotlin-stdlib/kotlin/-string/index.html">String</a><span class="token punctuation">, </span></span><span class="parameter ">error<span class="token operator">: </span><a href="../-lock-error/index.html">LockError</a></span></span><span class="token punctuation">)</span></div><div class="brief "><p class="paragraph">Called when the lock connection timeout and unlock timeout is reached.</p></div></div></div>
                 </div>
               </div>
             </div>

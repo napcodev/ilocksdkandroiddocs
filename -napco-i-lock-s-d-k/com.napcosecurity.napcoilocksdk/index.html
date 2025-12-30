@@ -35,6 +35,7 @@
 <script type="text/javascript" src="../../ui-kit/ui-kit.min.js" defer="defer"></script>
 <script type="text/javascript" src="../../scripts/symbol-parameters-wrapper_deferred.js" defer="defer"></script>
 <link href="../../images/logo-icon.svg">
+<script type="text/javascript" src="../../images/navigation-loader.js" async="async"></script>
 <link href="../../styles/style.css" rel="Stylesheet">
 </head>
 <body>
@@ -48,7 +49,7 @@
         </button>
         <div class="navigation-controls--break ui-kit_mobile-only"></div>
         <div class="library-version" id="library-version">
-        </div>
+1.0.2        </div>
         <div class="navigation-controls">
         <div class="filter-section filter-section_loading" id="filter-section">
                 <button class="platform-tag platform-selector jvm-like" data-active=""
@@ -126,7 +127,22 @@
                   </span></span></div>
               <div>
                 <div class="title">
-                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":NapcoILockSDK/release"><div class="symbol monospace"><span class="token keyword">class </span><a href="-credential/index.html">Credential</a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">password<span class="token operator">: </span><a href="https://kotlinlang.org/api/core/kotlin-stdlib/kotlin/-string/index.html">String</a></span></span><span class="token punctuation">)</span></div></div></div>
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":NapcoILockSDK/release"><div class="symbol monospace"><span class="token keyword">class </span><a href="-credential/index.html">Credential</a> : <a href="https://developer.android.com/reference/kotlin/java/io/Serializable.html">Serializable</a></div><div class="brief "><p class="paragraph">Represent a Credential.</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="1999186766%2FClasslikes%2F1808200872" anchor-label="CredentialType" id="1999186766%2FClasslikes%2F1808200872" data-filterable-set=":NapcoILockSDK/release"></a>
+          <div class="table-row" data-filterable-current=":NapcoILockSDK/release" data-filterable-set=":NapcoILockSDK/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="-credential-type/index.html"><span>Credential</span><wbr></wbr><span><span>Type</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1999186766%2FClasslikes%2F1808200872"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":NapcoILockSDK/release"><div class="symbol monospace"><span class="token keyword">enum </span><a href="-credential-type/index.html">CredentialType</a> : <a href="https://kotlinlang.org/api/core/kotlin-stdlib/kotlin/-enum/index.html">Enum</a><span class="token operator">&lt;</span><a href="-credential-type/index.html">CredentialType</a><span class="token operator">&gt; </span></div></div></div>
                 </div>
               </div>
             </div>
@@ -141,7 +157,7 @@
                   </span></span></div>
               <div>
                 <div class="title">
-                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":NapcoILockSDK/release"><div class="symbol monospace"><span class="token keyword">class </span><a href="-i-lock/index.html">ILock</a><span class="token punctuation">(</span><span class="parameters "><span class="parameter "><span class="token keyword">val </span>broadcastId<span class="token operator">: </span><a href="https://kotlinlang.org/api/core/kotlin-stdlib/kotlin/-string/index.html">String</a><span class="token operator"> = </span><span class="token string">&quot;ABC123&quot;</span><span class="token punctuation">, </span></span><span class="parameter "><span class="token keyword">val </span>threshold<span class="token operator">: </span><a href="https://kotlinlang.org/api/core/kotlin-stdlib/kotlin/-int/index.html">Int</a><span class="token operator"> = </span>-50</span></span><span class="token punctuation">)</span></div><div class="brief "><p class="paragraph">Represents an ILock device with functionalities to connect, unlock, toggle, and send key press commands.</p></div></div></div>
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":NapcoILockSDK/release"><div class="symbol monospace"><span class="token keyword">class </span><a href="-i-lock/index.html">ILock</a><span class="token punctuation">(</span><span class="parameters "><span class="parameter "><span class="token keyword">val </span>broadcastId<span class="token operator">: </span><a href="https://kotlinlang.org/api/core/kotlin-stdlib/kotlin/-string/index.html">String</a><span class="token operator"> = </span><span class="token string">&quot;ABC123&quot;</span><span class="token punctuation">, </span></span><span class="parameter "><span class="token keyword">val </span>threshold<span class="token operator">: </span><a href="https://kotlinlang.org/api/core/kotlin-stdlib/kotlin/-int/index.html">Int</a><span class="token operator"> = </span>-50</span></span><span class="token punctuation">)</span> : <a href="-lock-status-callback/index.html">LockStatusCallback</a></div><div class="brief "><p class="paragraph">Represents an ILock device with functionalities to connect, unlock, toggle, and send key press commands.</p></div></div></div>
                 </div>
               </div>
             </div>
@@ -206,6 +222,21 @@
               </div>
             </div>
           </div>
+<a data-name="-371632058%2FClasslikes%2F1808200872" anchor-label="LockError" id="-371632058%2FClasslikes%2F1808200872" data-filterable-set=":NapcoILockSDK/release"></a>
+          <div class="table-row" data-filterable-current=":NapcoILockSDK/release" data-filterable-set=":NapcoILockSDK/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="-lock-error/index.html"><span>Lock</span><wbr></wbr><span><span>Error</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-371632058%2FClasslikes%2F1808200872"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":NapcoILockSDK/release"><div class="symbol monospace"><span class="token keyword">sealed </span><span class="token keyword">class </span><a href="-lock-error/index.html">LockError</a></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
 <a data-name="340419330%2FClasslikes%2F1808200872" anchor-label="LockStatus" id="340419330%2FClasslikes%2F1808200872" data-filterable-set=":NapcoILockSDK/release"></a>
           <div class="table-row" data-filterable-current=":NapcoILockSDK/release" data-filterable-set=":NapcoILockSDK/release">
             <div class="main-subrow keyValue ">
@@ -262,21 +293,6 @@
               <div>
                 <div class="title">
                   <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":NapcoILockSDK/release"><div class="symbol monospace"><span class="token keyword">interface </span><a href="-sdk-init-callback/index.html">SdkInitCallback</a></div></div></div>
-                </div>
-              </div>
-            </div>
-          </div>
-<a data-name="-2066056079%2FClasslikes%2F1808200872" anchor-label="ToggleType" id="-2066056079%2FClasslikes%2F1808200872" data-filterable-set=":NapcoILockSDK/release"></a>
-          <div class="table-row" data-filterable-current=":NapcoILockSDK/release" data-filterable-set=":NapcoILockSDK/release">
-            <div class="main-subrow keyValue ">
-              <div class=""><span class="inline-flex">
-                  <div><a href="-toggle-type/index.html"><span>Toggle</span><wbr></wbr><span><span>Type</span></span></a></div>
-<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-2066056079%2FClasslikes%2F1808200872"></span>
-                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
-                  </span></span></div>
-              <div>
-                <div class="title">
-                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":NapcoILockSDK/release"><div class="symbol monospace"><span class="token keyword">enum </span><a href="-toggle-type/index.html">ToggleType</a> : <a href="https://kotlinlang.org/api/core/kotlin-stdlib/kotlin/-enum/index.html">Enum</a><span class="token operator">&lt;</span><a href="-toggle-type/index.html">ToggleType</a><span class="token operator">&gt; </span></div></div></div>
                 </div>
               </div>
             </div>

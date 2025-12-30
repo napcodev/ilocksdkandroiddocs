@@ -2,7 +2,7 @@
 <html class="no-js">
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1" charset="UTF-8">
-    <title>toggleLockUnlock</title>
+    <title>onLockRSSIReceived</title>
     <link href="../../../images/logo-icon.svg" rel="icon" type="image/svg">
     <script>var pathToRoot = "../../../";</script>
     <script>document.documentElement.classList.replace("no-js","js");</script>
@@ -35,6 +35,7 @@
 <script type="text/javascript" src="../../../ui-kit/ui-kit.min.js" defer="defer"></script>
 <script type="text/javascript" src="../../../scripts/symbol-parameters-wrapper_deferred.js" defer="defer"></script>
 <link href="../../../images/logo-icon.svg">
+<script type="text/javascript" src="../../../images/navigation-loader.js" async="async"></script>
 <link href="../../../styles/style.css" rel="Stylesheet">
 </head>
 <body>
@@ -48,7 +49,7 @@
         </button>
         <div class="navigation-controls--break ui-kit_mobile-only"></div>
         <div class="library-version" id="library-version">
-        </div>
+1.0.2        </div>
         <div class="navigation-controls">
         <div class="filter-section filter-section_loading" id="filter-section">
                 <button class="platform-tag platform-selector jvm-like" data-active=""
@@ -106,12 +107,12 @@
                 </div>
             </div>
             <div id="main">
-<div class="main-content" data-page-type="member" id="content" pageIds="NapcoILockSDK::com.napcosecurity.napcoilocksdk/ILock/toggleLockUnlock/#com.napcosecurity.napcoilocksdk.Credential#com.napcosecurity.napcoilocksdk.ToggleType/PointingToDeclaration//1808200872">
-  <div class="breadcrumbs"><a href="../../../index.html">NapcoILockSDK</a><span class="delimiter">/</span><a href="../index.html">com.napcosecurity.napcoilocksdk</a><span class="delimiter">/</span><a href="index.html">ILock</a><span class="delimiter">/</span><span class="current">toggleLockUnlock</span></div>
+<div class="main-content" data-page-type="member" id="content" pageIds="NapcoILockSDK::com.napcosecurity.napcoilocksdk/ILock/onLockRSSIReceived/#kotlin.Int/PointingToDeclaration//1808200872">
+  <div class="breadcrumbs"><a href="../../../index.html">NapcoILockSDK</a><span class="delimiter">/</span><a href="../index.html">com.napcosecurity.napcoilocksdk</a><span class="delimiter">/</span><a href="index.html">ILock</a><span class="delimiter">/</span><span class="current">onLockRSSIReceived</span></div>
   <div class="cover ">
-    <h1 class="cover"><span>toggle</span><wbr></wbr><span>Lock</span><wbr></wbr><span><span>Unlock</span></span></h1>
+    <h1 class="cover"><span>on</span><wbr></wbr><span>Lock</span><wbr></wbr><span><span>RSSIReceived</span></span></h1>
   </div>
-  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":NapcoILockSDK/release"><div class="symbol monospace"><span class="token keyword">fun </span><a href="toggle-lock-unlock.html"><span class="token function">toggleLockUnlock</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">credential<span class="token operator">: </span><a href="../-credential/index.html">Credential</a><span class="token punctuation">, </span></span><span class="parameter ">type<span class="token operator">: </span><a href="../-toggle-type/index.html">ToggleType</a></span></span><span class="token punctuation">)</span></div><p class="paragraph">Toggles the lock state based on the provided credential and toggle type.</p><h4 class="">Parameters</h4><div class="table"><div class="table-row" data-filterable-current=":NapcoILockSDK/release" data-filterable-set=":NapcoILockSDK/release"><div class="main-subrow keyValue "><div class=""><span class="inline-flex"><div><u><span><span>credential</span></span></u></div></span></div><div><div class="title"><p class="paragraph">The credential used for authentication.</p></div></div></div></div><div class="table-row" data-filterable-current=":NapcoILockSDK/release" data-filterable-set=":NapcoILockSDK/release"><div class="main-subrow keyValue "><div class=""><span class="inline-flex"><div><u><span><span>type</span></span></u></div></span></div><div><div class="title"><p class="paragraph">The type of toggle action to perform.</p></div></div></div></div></div></div></div>
+  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":NapcoILockSDK/release"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword">override </span><span class="token keyword">fun </span><a href="on-lock-r-s-s-i-received.html"><span class="token function">onLockRSSIReceived</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">rssi<span class="token operator">: </span><a href="https://kotlinlang.org/api/core/kotlin-stdlib/kotlin/-int/index.html">Int</a></span></span><span class="token punctuation">)</span></div><p class="paragraph">Called when the RSSI (signal strength) of the lock is received.</p></div></div>
 </div>
     <div class="footer">
         <a href="#content" id="go-to-top-link" class="footer--button footer--button_go-to-top"></a>
